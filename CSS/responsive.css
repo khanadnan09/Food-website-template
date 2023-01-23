@@ -1,0 +1,482 @@
+@media only screen and (max-width:1500px) {
+    .card-body .card-title.text-center.text-capitalize {
+        white-space: nowrap;
+        width: 300px;
+        overflow: hidden;
+        text-overflow: ellipsis
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .searchbox {
+        padding: 5px 6px
+    }
+
+    .hero_img {
+        height: 120vh
+    }
+
+    .Top_Recipe_img {
+        display: none
+    }
+
+    .about {
+        padding-left: 0
+    }
+
+    .prod_cart {
+        margin-left: 0
+    }
+}
+
+@media only screen and (max-width:1130px) {
+    .searchbox {
+        padding: 5px 6px;
+        width: 120px
+    }
+}
+
+@media only screen and (max-width:1051px) {
+    .nav-item {
+        padding-left: 5px;
+        padding-right: 5px
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:992px) {
+
+    .modal-lg,
+    .modal-xl {
+        max-width: 932px !important
+    }
+}
+
+@media screen and (min-width:992px) {
+    .sidenav {
+        width: auto !important;
+        min-width: 243px !important;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .navbar-collapse {
+        left: 0;
+        background-color: #fff;
+        min-width: 220px;
+        overflow-y: auto;
+        z-index: 333;
+        position: fixed;
+        top: 0;
+        transition: 450ms !important;
+        height: 100vh !important;
+        padding-bottom: 10px
+    }
+
+    .navbar-collapse .nav-link {
+        padding: 1rem;
+    }
+
+    .collapse:not(.show) {
+        left: -452px !important;
+        display: block !important
+    }
+
+    .hide_show {
+        display: inline-block !important;
+        margin-right: 11px;
+        margin-left: 11px;
+        font-size: 17px
+    }
+
+    .nav-item {
+        padding-left: 0;
+        padding-right: 0;
+        border-bottom: 1px solid #d1d1d1b5;
+        margin: 0
+    }
+
+    .nav-item:hover {
+        background-color: #e9ecef;
+    }
+   .nav-link.active {
+    padding: 16px 0px !important;
+    border-radius: 0px;
+    }
+    .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    padding: 9px 20px !important;
+}
+    .searchbox {
+        width: auto;
+        padding: 12px 27px
+    }
+
+    .dropdown-menu {
+        width: 90%;
+        margin: auto !important;
+        margin-bottom: 10px !important
+    }
+
+    .navbar>.container-fluid {
+        justify-content: unset !important
+    }
+
+    .navbar-brand {
+        margin-right: auto !important
+    }
+
+    .text_hero {
+        position: absolute;
+        top: 40%;
+        left: 3%
+    }
+
+    .text_hero h1 {
+        font-size: 1.9rem !important
+    }
+
+    .img_line {
+        top: 59%
+    }
+
+    .hero_img {
+        height: 101vh
+    }
+
+    .img_line span {
+        padding-left: 30px
+    }
+
+    .CARDS_INFO {
+        margin-bottom: 50px
+    }
+
+    .card-body .card-title.text-center.text-capitalize {
+        white-space: nowrap;
+        width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis
+    }
+
+    .nav_style {
+        padding: 10px 20px !important;
+        margin-left: 20px
+    }
+
+    #d-t-g span {
+        font-size: 1rem
+    }
+
+    footer img {
+        height: 77px;
+        width: 26.6%
+    }
+
+    .about,
+    .contact_foot,
+    .foot-ul,
+    .social_icons,
+    .social_media_img {
+        padding-left: 0
+    }
+
+    .Checkout_container .col-lg-6 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        width: 90%;
+    }
+
+    .text_log_reg img {
+        width: 200px;
+        margin-bottom: 5px;
+    }
+
+    .log_reg_left {
+        height: auto;
+        padding-bottom: 12px;
+    }
+
+    .text_log_reg {
+        margin-top: 0rem;
+    }
+
+    .log_tabs {
+        margin-right: 0;
+    }
+
+    .open_sidenav,
+    .open_closenav {
+        display: block !important;
+    }
+
+    .sidenav {
+        width: 0;
+        margin-top: 0;
+        border-radius: 0px;
+        position: fixed !important;
+        padding-bottom: 25px;
+    }
+
+    .card_user_web {
+        padding: 0 !important;
+    }
+
+    .user_info {
+        margin-top: 20px !important;
+        margin-left: 0px !important;
+    }
+
+    .contact_form {
+        margin-top: 20px !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .lg_card img {
+        width: 100%
+    }
+
+    .splash::after {
+        border-radius: 82% 140% 59% 118%;
+        margin-top: 28px
+    }
+
+    .pilsss {
+        margin-bottom: 20px !important
+    }
+
+    .all_Prod_head:nth-child(2) span {
+        font-size: 1.5rem
+    }
+
+    .video_headline {
+        font-size: 3rem
+    }
+
+    .SUBSCRIBE {
+        flex-direction: column;
+        align-items: center
+    }
+
+    footer img {
+        height: 92px;
+        width: 43%
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .hero_img {
+        height: 91vh !important;
+    }
+
+    .left_ul {
+        display: none !important;
+    }
+
+    .right_ul {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .owl-theme .owl-dots,
+    .owl-theme .owl-nav {
+        display: none;
+    }
+
+    .all_Prod_head:nth-child(2) span {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .wrapper_form {
+        padding: 24px 0;
+    }
+
+    #d-t-g {
+        margin-top: 20px;
+    }
+
+    footer img {
+        height: auto;
+        width: 100%;
+    }
+
+    .navbar-brand {
+        position: relative;
+        left: -35px;
+    }
+
+    .sm_banner img,
+    .sm_banner::after {
+        height: 250px;
+    }
+
+    .contact_form {
+        width: 95%;
+    }
+    .contact_btn{
+        width: 70% !important;
+      }
+}
+
+@media only screen and (max-width:530px) {
+    .pr_det_btns {
+        display: flex;
+        margin-top: 21px;
+    }
+
+    .prod_cart {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .log {
+        width: 94%;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .logo {
+        width: 185px;
+    }
+
+    .searchbox {
+        padding: 12px 12px;
+    }
+
+    .hero_img {
+        height: 85vh !important;
+    }
+
+    .text_hero h1 {
+        font-size: 1.3rem !important;
+    }
+
+    .text_hero h5 {
+        font-size: 1rem;
+        padding: 0 11px;
+    }
+
+    .img_line {
+        top: 54%;
+    }
+
+    .img_line span {
+        padding-left: 0;
+        font-size: 1rem;
+    }
+
+    #about_img::before {
+        height: 150px;
+    }
+
+    .lg_card img {
+        height: 250px;
+    }
+
+    .lg_card .card-title:nth-child(2) {
+        font-size: 3rem;
+    }
+
+    .crad_sm_img {
+        width: 30%;
+    }
+
+    .subscribe_input input {
+        width: 95%;
+    }
+
+    .subscribe_input {
+        width: 100%;
+    }
+
+    .sm_banner img,
+    .sm_banner::after {
+        height: 200px;
+    }
+
+    .cart_detail .list-group-item:nth-child(5) {
+        padding: 5px;
+    }
+
+    .cart_detail .list-group-item button,
+    .cart_detail .list-group-item a {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:399px) {
+    .log_nav {
+        margin-bottom: 7px;
+        font-size: 12px;
+    }
+
+    .sortby {
+        font-size: 16px;
+        margin-right: 0px !important;
+    }
+
+    .menu__header span {
+        font-size: 16px;
+        padding-left: 0px !important;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .card_Sm_wrapper .card-title {
+        width: 139px;
+    }
+
+    .video_headline {
+        font-size: 2.5rem;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .navbar-brand {
+        left: -25px;
+    }
+
+    .nav_item_icon {
+        padding: 3px 7px !important;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:340px) {
+    .nav-pills .log_nav.active {
+        padding: 8px 16px !important;
+    }
+
+    .sortby {
+        font-size: 14px;
+        margin-right: 0px !important;
+        padding: 4px 14px !important;
+    }
+}
+
+@media only screen and (max-width:330px) {
+
+    .user_card,
+    .card_small1,
+    .card_small2,
+    .card_small3 {
+        max-width: 260px !important;
+    }
+}
+
+@media only screen and (max-width:305px) {
+    .searchbox {
+        padding: 12px 5px;
+    }
+
+    .video_headline {
+        font-size: 2rem;
+    }
+}

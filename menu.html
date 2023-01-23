@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="CSS\style.css" />
+    <!-- responsive.css -->
+    <link rel="stylesheet" href="CSS\responsive.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="CSS\bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="CSS\owl.carousel.min.css">
+    <link rel="stylesheet" href="CSS\owl.theme.default.min.css">
+    <!-- Aos css-->
+    <link rel="stylesheet" href="CSS\aos.css">
+    <title>FOODIES.COM</title>
+</head>
+
+<body>
+  <!--🚀🚀🚀 top nav -->
+  <div class="container-fluid bg-black">
+    <div class="row">
+        <div class="col-12 d-flex flex-row align-items-center" style="height: 32px;">
+            <!-- left ul -->
+            <ul class="navbar-nav left_ul flex-row">
+                <li class="nav-item ">
+                    <a href="#">
+                        <i class="bi bi-telephone-plus-fill"></i>
+                        +997 509 153 849
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">
+                        <i class="bi bi-envelope-fill"></i>
+                        FOODIES@gmail.com
+                    </a>
+                </li>
+            </ul>
+            <!-- right ul -->
+            <ul class="navbar-nav right_ul d-flex flex-row">
+                <li class="nav-item"><a href=""><i class="bi bi-facebook"></i></a></li>
+                <li class="nav-item"><a href=""><i class="bi bi-instagram"></i></a></li>
+                <li class="nav-item"><a href=""><i class="bi bi-twitter"></i></a></li>
+                <li class="nav-item"><a href=""><i class="bi bi-pinterest"></i></a></li>
+                <li class="nav-item d-flex align-items-center position-relative">
+                    <i class="bi bi-box-arrow-left pe-2"></i>John Smith
+                    <ul class="dropdown_user">
+                        <li class="drop_li"><a href="Login.html"><i
+                                    class="bi bi-box-arrow-in-right"></i>Log In</a></li>
+                        <li class="drop_li"><a href="#"><i class="bi bi-box-arrow-in-left"></i>Log Out</a></li>
+                        <li class="drop_li"><a href="userProfile.html"><i class="bi bi-person-circle"></i>Your
+                                Profile</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <!--🚀🚀🚀NAVBAR -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 p-0">
+                <nav class="navbar navbar-expand-lg bg-white flex-nowrap border-bottom border-dark"
+                    style="height: 90px;">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="IMAGES/logo.png" alt="" class="logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <i class="bi bi-list fs-1"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                            <a class="nav-link logo_side_nav hide_show" aria-current="page" href="index.html">
+                                <img src="IMAGES/logo.png" alt="" class="logo">
+                            </a>
+
+                            <button class="navbar-toggler nav_close" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="bi bi-x fs-1"></i>
+                            </button>
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item ">
+                                    <a class="nav-link" aria-current="page" href="index.html"><i
+                                            class="bi bi-house-door-fill hide_show"></i>Home</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link active" aria-current="page" href="menu.html"><i
+                                            class="bi bi-clipboard2-fill hide_show"></i>Menu</a>
+                                </li>
+
+                                   <li class="nav-item ">
+                                  <a class="nav-link" href="ContactUs.html"><i class="bi bi-send-plus-fill hide_show"></i>Contact Us</a>
+                              </li> 
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html#targetname">
+                                        <i class="bi bi-bookmarks-fill hide_show"></i> Book A Table</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex border-bottom border-2 border-dark">
+                                <input type="text" placeholder="Search.." class="searchbox">
+                                <button class="srch_btn" type="submit"><i class="bi bi-search"></i></button>
+                                <form />
+                        </div>
+                        <a class="nav_item_icon position-relative" href="wishList.html">
+                            <i class="bi bi-heart-fill"></i>
+                            <span class="number_bedge">
+                                10
+                            </span>
+                        </a>
+                        <a class="nav_item_icon position-relative" href="cart.html">
+                            <i class="bi bi-basket2-fill"></i>
+                            <span class="number_bedge">
+                                6
+                            </span>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-12 p-0 position-relative sm_banner">
+                <img src="IMAGES/img49.jpeg" alt="">
+                <div class="sm_banner_text">
+                    <h1 style="color: #ffffff;">Menu</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item text-capitalize"><a href="#">home</a></li>
+                            <li class="breadcrumb-item active text-capitalize" aria-current="page">Menu</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- menu section 🚀🚀🚀 -->
+    <div class="container-fluid" style="padding:40px;overflow-x: clip;">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 menu__header d-flex justify-content-between align-items-center"><span class="ps-3">200+
+                    dishes</span>
+                <button type="button" class="about_order sortby position-relative">Sort By <i
+                        class="bi bi-chevron-down"></i>
+                    <ul class="myDropdown_ul">
+                        <li>
+                            <input class="form-check-input me-2" type="radio" name="flexRadioDefault"
+                                id="flexRadioDefault2" checked> Relevance
+                        </li>
+                        <li>
+                            <input class="form-check-input me-2" type="radio" name="flexRadioDefault"
+                                id="flexRadioDefault1"> Popularity
+                        </li>
+                        <li>
+                            <input class="form-check-input me-2" type="radio" name="flexRadioDefault"
+                                id="flexRadioDefault1"> price : low to high
+                        </li>
+                        <li>
+                            <input class="form-check-input me-2" type="radio" name="flexRadioDefault"
+                                id="flexRadioDefault1"> price : high to low
+                        </li>
+
+                    </ul>
+                </button>
+            </div>
+            <!-- filter open btn -->
+            <span class="open_sidenav" onclick="openNav()">
+                <i class="bi bi-sliders"></i>
+            </span>
+
+            <div class="col-lg-3 filter_body ps-0">
+                <!-- filter -->
+                <div id="mySidenav" class="sidenav sticky-top">
+                    <a href="javascript:void(0)" class="open_closenav closebtn" onclick="closeNav()"><i
+                            class="bi bi-x"></i></a>
+                    <span class="fliter_head d-flex justify-content-between">Filters<span>Clear All</span></span>
+                    <!-- shop by Category -->
+                    <div class="filter_heading">order by Category</div>
+                    <ul class="filter_ul border-bottom">
+                        <li class="filter_li"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"><span>Nonveg<span class="available">130</span></li>
+                        <li class="filter_li"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"><span>Veg<span class="available">120</span>
+                        </li>
+                        <li class="filter_li"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"><span>street food <span class="available">230</span></lass=>
+                        </li>
+                    </ul>
+                    <!-- shop by Delivery Time -->
+                    <div class="filter_heading border-bottom pb-3"><input class="form-check-input" type="checkbox"
+                            value="" id="flexCheckDefault" style="margin-right: 7px;">acording Delivery Time</div>
+                    <!-- shop by pure veg -->
+                    <div class="filter_heading border-bottom pb-3"><input class="form-check-input" type="checkbox"
+                            value="" id="flexCheckDefault" style="margin-right: 7px;">pure veg</div>
+                    <!-- shop by product rating -->
+                    <div class="filter_heading">shop by product rating</div>
+                    <ul class="filter_ul border-bottom rat_ul d-flex pb-3">
+                        <li class="filter_li">1<i class="bi bi-star-fill color"></i></li>
+                        <li class="filter_li">2<i class="bi bi-star-fill color"></i></li>
+                        <li class="filter_li">3<i class="bi bi-star-fill color"></i></li>
+                        <li class="filter_li">4<i class="bi bi-star-fill color"></i></li>
+                        <li class="filter_li">5<i class="bi bi-star-fill color"></i></li>
+                    </ul>
+                    <!-- shop by Cuisines -->
+                    <div class="filter_heading">shop by Cuisines</div>
+                    <div class="input-group my-3 Cuisines">
+                        <input type="search" class="form-control search_cuisines" placeholder="Search here"
+                            aria-label="Example text with button addon" aria-describedby="button-addon1">
+                        <button class="search_button"><i class="bi bi-search"></i></button>
+                    </div>
+                    <div class="Cuisines_list d-flex flex-wrap">
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Afghan
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">American
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Andhra
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Arabian
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Asian
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Awadhi
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">BBQ
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Bakery
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Biryani
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Burger
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Chicken
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Chettinad
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Chinese
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Continental
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Coffee
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Desserts
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">European
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Fast Food
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">French
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Frozen Yogurt
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Garhwali
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Gujarati
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Healthy Food
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Hyderabadi
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Ice Cream
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Japanese
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Kashmiri
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Kebab
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Korean
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Lucknowi
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Maharashtrian
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Mexican
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Pizza
+                        </div>
+                        <div class="Cuisines_item">
+                            <input type="checkbox" class="form-check-input">Pasta
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- shop -->
+            <div class="col-lg-9 shop_body px-0">
+                <div class="row d-flex flex-row flex-wrap">
+
+                    <div class="col-12 brands">
+                        <h4>Top brands for you</h4>
+                        <div class="owl-carousel owl-theme top_brands">
+                            <div class="item d-flex justify-content-center pt-2"><img src="IMAGES/br01-min.png" alt="">
+                            </div>
+                            <div class="item d-flex justify-content-center pt-2"><img src="IMAGES/br2-min-min.png" alt=""></div>
+                            <div class="item d-flex justify-content-center pt-2"><img src="IMAGES/br1-min.png" alt=""></div>
+                            <div class="item d-flex justify-content-center pt-2"><img src="IMAGES/br3-min.png" alt=""></div>
+                            <div class="item d-flex justify-content-center pt-2"><img src="IMAGES/br4-min-min.png" alt=""></div>
+                            <div class="item d-flex justify-content-center pt-2"><img src="IMAGES/br5-min.png" alt=""></div>
+                            <div class="item d-flex justify-content-center pt-2"><img src="IMAGES/br6-min.png" alt=""></div>
+                            <div class="item d-flex justify-content-center pt-2"><img src="IMAGES/br7-min.png" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 my-3 aos-init" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                        <div class="card Cat_card ">
+                            <img src="IMAGES/pizza-about-min.png" class="card-img-top" alt="...">
+                            <span class="delivery_time">33 min</span>
+                            <div class="card-body mt-4 d-flex flex-column align-items-center">
+                                <h5 class="card-title text-center text-capitalize"> Chicago Pizza</h5>
+                                <span class="off_prod">30% off</span>
+                                <span class="text-center d-block">
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star color"></i>
+                                    <span class="rating">(4/5)</span>
+                                </span>
+                                <h4 class="card-text d-flex align-items-center justify-content-center">
+                                    <small class="text-muted mute_price">₹200</small>
+                                    <span class="fw-bold" style="color: #f7a518;">₹149</span>
+                                </h4>
+                                <span class="card_icons card_catg">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-eye" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <i class="bi bi-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 my-3 aos-init" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                        <div class="card Cat_card ">
+                            <img src="IMAGES/Burger-min.png" class="card-img-top" alt="...">
+                            <span class="delivery_time">20 min</span>
+                            <div class="card-body mt-4 d-flex flex-column align-items-center">
+                                <h5 class="card-title text-center text-capitalize">Burger</h5>
+                                <span class="off_prod">30% off</span>
+                                <span class="text-center d-block">
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star color"></i>
+                                    <span class="rating">(4/5)</span>
+                                </span>
+                                <h4 class="card-text d-flex align-items-center justify-content-center">
+                                    <small class="text-muted mute_price">₹200</small>
+                                    <span class="fw-bold" style="color: #f7a518;">₹149</span>
+                                </h4>
+                                <span class="card_icons card_catg">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-eye" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <i class="bi bi-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 my-3 aos-init" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                        <div class="card Cat_card ">
+                            <img src="IMAGES//pizza_1-min.png" class="card-img-top" alt="...">
+                            <span class="delivery_time">33 min</span>
+                            <div class="card-body mt-4 d-flex flex-column align-items-center">
+                                <h5 class="card-title text-center text-capitalize"> New York-Style Pizza</h5> <span
+                                    class="off_prod">30% off</span>
+                                <span class="text-center d-block">
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star color"></i>
+                                    <span class="rating">(4/5)</span>
+                                </span>
+                                <h4 class="card-text d-flex align-items-center justify-content-center">
+                                    <small class="text-muted mute_price">₹200</small>
+                                    <span class="fw-bold" style="color: #f7a518;">₹149</span>
+                                </h4>
+                                <span class="card_icons card_catg">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-eye" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <i class="bi bi-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 my-3 aos-init" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                        <div class="card Cat_card ">
+                            <img src="IMAGES/biryani-min.png" class="card-img-top" alt="...">
+                            <span class="delivery_time">30 min</span>
+                            <div class="card-body mt-4 d-flex flex-column align-items-center">
+                                <h5 class="card-title text-center text-capitalize">Biryani</h5> <span
+                                    class="off_prod">10% off</span>
+                                <span class="text-center d-block">
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star color"></i>
+                                    <span class="rating">(4/5)</span>
+                                </span>
+                                <h4 class="card-text d-flex align-items-center justify-content-center">
+                                    <small class="text-muted mute_price">₹200</small>
+                                    <span class="fw-bold" style="color: #f7a518;">₹149</span>
+                                </h4>
+                                <span class="card_icons card_catg">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-eye" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <i class="bi bi-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 my-3 aos-init" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                        <div class="card Cat_card ">
+                            <img src="IMAGES/chicken-min.png" class="card-img-top" alt="...">
+                            <span class="delivery_time">33 min</span>
+                            <div class="card-body mt-4 d-flex flex-column align-items-center">
+                                <h5 class="card-title text-center text-capitalize"> Chicken Fry</h5>
+                                <span class="off_prod">40% off</span>
+                                <span class="text-center d-block">
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star color"></i>
+                                    <span class="rating">(4/5)</span>
+                                </span>
+                                <h4 class="card-text d-flex align-items-center justify-content-center">
+                                    <small class="text-muted mute_price">₹200</small>
+                                    <span class="fw-bold" style="color: #f7a518;">₹149</span>
+                                </h4>
+                                <span class="card_icons card_catg">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-eye" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <i class="bi bi-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 my-3 aos-init" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                        <div class="card Cat_card ">
+                            <img src="IMAGES/Fried-Fish-1-min.png" class="card-img-top" alt="...">
+                            <span class="delivery_time">33 min</span>
+                            <div class="card-body mt-4 d-flex flex-column align-items-center">
+                                <h5 class="card-title text-center text-capitalize"> Fried-Fish</h5>
+                                <span class="off_prod">15% off</span>
+                                <span class="text-center d-block">
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star color"></i>
+                                    <span class="rating">(4/5)</span>
+                                </span>
+                                <h4 class="card-text d-flex align-items-center justify-content-center">
+                                    <small class="text-muted mute_price">₹200</small>
+                                    <span class="fw-bold" style="color: #f7a518;">₹149</span>
+                                </h4>
+                                <span class="card_icons card_catg">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-eye" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <i class="bi bi-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 my-3 aos-init" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                        <div class="card Cat_card ">
+                            <img src="IMAGES/paneer-tikka-min.png" class="card-img-top" alt="...">
+                            <span class="delivery_time">23 min</span>
+                            <div class="card-body mt-4 d-flex flex-column align-items-center">
+                                <h5 class="card-title text-center text-capitalize"> Paneer-Tikka</h5>
+                                <span class="off_prod">50% off</span>
+                                <span class="text-center d-block">
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star color"></i>
+                                    <span class="rating">(4/5)</span>
+                                </span>
+                                <h4 class="card-text d-flex align-items-center justify-content-center">
+                                    <small class="text-muted mute_price">₹200</small>
+                                    <span class="fw-bold" style="color: #f7a518;">₹149</span>
+                                </h4>
+                                <span class="card_icons card_catg">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-eye" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <i class="bi bi-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 my-3 aos-init" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                        <div class="card Cat_card ">
+                            <img src="IMAGES/dal-bati-churma-removebg-preview-min.png" class="card-img-top" alt="..."><span
+                                class="delivery_time">33 min</span>
+                            <div class="card-body mt-4 d-flex flex-column align-items-center">
+                                <h5 class="card-title text-center text-capitalize">Dall-Bati-Churma</h5>
+                                <span class="off_prod">50% off</span>
+                                <span class="text-center d-block">
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star color"></i>
+                                    <span class="rating">(4/5)</span>
+                                </span>
+                                <h4 class="card-text d-flex align-items-center justify-content-center">
+                                    <small class="text-muted mute_price">₹200</small>
+                                    <span class="fw-bold" style="color: #f7a518;">₹149</span>
+                                </h4>
+                                <span class="card_icons card_catg">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-eye" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <i class="bi bi-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 my-3 aos-init" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                        <div class="card Cat_card ">
+                            <img src="IMAGES/veg-biryani-removebg-preview-min.png" class="card-img-top" alt="..."><span
+                                class="delivery_time">33 min</span>
+                            <div class="card-body mt-4 d-flex flex-column align-items-center">
+                                <h5 class="card-title text-center text-capitalize">Veg Biryan</h5>
+                                <span class="off_prod">60% off</span>
+                                <span class="text-center d-block">
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star color"></i>
+                                    <span class="rating">(4/5)</span>
+                                </span>
+                                <h4 class="card-text d-flex align-items-center justify-content-center">
+                                    <small class="text-muted mute_price">₹200</small>
+                                    <span class="fw-bold" style="color: #f7a518;">₹149</span>
+                                </h4>
+                                <span class="card_icons card_catg">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-eye" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <i class="bi bi-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 my-3 aos-init" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                        <div class="card Cat_card ">
+                            <img src="IMAGES/d-gulabJamun-min.png" class="card-img-top" alt="..."><span
+                                class="delivery_time">33 min</span>
+                            <div class="card-body mt-4 d-flex flex-column align-items-center">
+                                <h5 class="card-title text-center text-capitalize"> GulabJamun</h5>
+                                <span class="off_prod">30% off</span>
+                                <span class="text-center d-block">
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star color"></i>
+                                    <span class="rating">(4/5)</span>
+                                </span>
+                                <h4 class="card-text d-flex align-items-center justify-content-center">
+                                    <small class="text-muted mute_price">₹200</small>
+                                    <span class="fw-bold" style="color: #f7a518;">₹149</span>
+                                </h4>
+                                <span class="card_icons card_catg">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-eye" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <i class="bi bi-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 my-3 aos-init" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                        <div class="card Cat_card ">
+                            <img src="IMAGES/strobery cacke-min.png" class="card-img-top" alt="..."><span
+                                class="delivery_time">13 min</span>
+                            <div class="card-body mt-4 d-flex flex-column align-items-center">
+                                <h5 class="card-title text-center text-capitalize"> Strobery Cake</h5>
+                                <span class="off_prod">30% off</span>
+                                <span class="text-center d-block">
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star color"></i>
+                                    <span class="rating">(4/5)</span>
+                                </span>
+                                <h4 class="card-text d-flex align-items-center justify-content-center">
+                                    <small class="text-muted mute_price">₹200</small>
+                                    <span class="fw-bold" style="color: #f7a518;">₹149</span>
+                                </h4>
+                                <span class="card_icons card_catg">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-eye" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <i class="bi bi-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 my-3 aos-init" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                        <div class="card Cat_card ">
+                            <img src="IMAGES/chocklet-cake-min.png" class="card-img-top" alt="..."><span
+                                class="delivery_time">20 min</span>
+                            <div class="card-body mt-4 d-flex flex-column align-items-center">
+                                <h5 class="card-title text-center text-capitalize"> Chocklet-Cake</h5> <span
+                                    class="off_prod">30% off</span>
+                                <span class="text-center d-block">
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star color"></i>
+                                    <span class="rating">(4/5)</span>
+                                </span>
+                                <h4 class="card-text d-flex align-items-center justify-content-center">
+                                    <small class="text-muted mute_price">₹200</small>
+                                    <span class="fw-bold" style="color: #f7a518;">₹149</span>
+                                </h4>
+                                <span class="card_icons card_catg">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-eye" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <i class="bi bi-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 my-3 aos-init" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                        <div class="card Cat_card ">
+                            <img src="IMAGES/d-pasta-min.png" class="card-img-top" alt="..."><span class="delivery_time">22
+                                min</span>
+                            <div class="card-body mt-4 d-flex flex-column align-items-center">
+                                <h5 class="card-title text-center text-capitalize"> Italian Pasta</h5> <span
+                                    class="off_prod">10% off</span>
+                                <span class="text-center d-block">
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star color"></i>
+                                    <span class="rating">(4/5)</span>
+                                </span>
+                                <h4 class="card-text d-flex align-items-center justify-content-center">
+                                    <small class="text-muted mute_price">₹200</small>
+                                    <span class="fw-bold" style="color: #f7a518;">₹149</span>
+                                </h4>
+                                <span class="card_icons card_catg">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-eye" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <i class="bi bi-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 my-3 aos-init" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                        <div class="card Cat_card ">
+                            <img src="IMAGES/ROSE-min.png" class="card-img-top" alt="..."><span class="delivery_time">30
+                                min</span>
+                            <div class="card-body mt-4 d-flex flex-column align-items-center">
+                                <h5 class="card-title text-center text-capitalize"> Rose Drink</h5>
+                                <span class="off_prod">20% off</span>
+                                <span class="text-center d-block">
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star color"></i>
+                                    <span class="rating">(4/5)</span>
+                                </span>
+                                <h4 class="card-text d-flex align-items-center justify-content-center">
+                                    <small class="text-muted mute_price">₹200</small>
+                                    <span class="fw-bold" style="color: #f7a518;">₹149</span>
+                                </h4>
+                                <span class="card_icons card_catg">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-eye" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <i class="bi bi-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 my-3 aos-init" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                        <div class="card Cat_card ">
+                            <img src="IMAGES/sugarcane-juice-removebg-preview-min.png" class="card-img-top" alt="..."><span
+                                class="delivery_time">23 min</span>
+                            <div class="card-body mt-4 d-flex flex-column align-items-center">
+                                <h5 class="card-title text-center text-capitalize">Sugarcane-Juice</h5>
+                                <span class="off_prod">50% off</span>
+                                <span class="text-center d-block">
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star-fill color"></i>
+                                    <i class="bi bi-star color"></i>
+                                    <span class="rating">(4/5)</span>
+                                </span>
+                                <h4 class="card-text d-flex align-items-center justify-content-center">
+                                    <small class="text-muted mute_price">₹200</small>
+                                    <span class="fw-bold" style="color: #f7a518;">₹149</span>
+                                </h4>
+                                <span class="card_icons card_catg">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-eye" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                                    <i class="bi bi-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+   <!-- footer  🚀🚀🚀-->
+   <footer class="container-fluid" style="background-color:#fff;">
+    <div class="row">
+      <div class="col-12 SUBSCRIBE d-flex">
+        <span>
+          <h3 style="color: #f7a518;">SUBSCRIBE NEWS LATTER</h3>
+          <h6>Subscribe to get the latest news..</h6>
+        </span>
+        <div class="subscribe_input d-flex align-items-center">
+          <input type="email" id="subcribedEmail" placeholder="Enter Your Mail">
+          <button type="submit" class="subscribe_btn d-flex align-items-center">Subscribe</button>
+        </div>
+      </div>
+      <div class="col-12 d-flex justify-content-center">
+        <div class="row container">
+          <div class="col-lg-4" style="padding: 20px 0px;">
+            <img src="IMAGES/logo.png" alt="">
+            <span class="d-block about text-capitalize">
+              <span class="fw-bold"> About Us:</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Consequatur, suscipit. Quia ab harum quae maiores
+              quisquam, atque repellat cupiditate.
+            </span>
+          </div>
+
+          <div class="col-lg-4" style="padding: 20px 0px;">
+            <h5 class="contact_foot">Get In Touch</h5>
+            <ul class="foot-ul">
+              <li>
+                <p class="mb-2"><i class="bi bi-pin-map-fill"></i>
+                  4920 Trails End Road Ft United States, FL 33311</p>
+                <p class="mb-2"><i class="bi bi-envelope-fill"></i>
+                  FOODIES@gmail.com</p>
+                <p class="mb-2"><i class="bi bi-telephone-plus-fill"></i>
+                  +997 509 153 849</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4" style="padding: 20px 0px;">
+            <h5 class="contact_foot">Social Media Pages</h5>
+            <ul class="social_icons d-flex">
+              <li><a href=""><i class="bi bi-facebook"></i></a></li>
+              <li><a href=""><i class="bi bi-instagram"></i></a></li>
+              <li><a href=""><i class="bi bi-twitter"></i></a></li>
+              <li><a href=""><i class="bi bi-pinterest"></i></a></li>
+            </ul>
+            <div class="social_media_img d-flex flex-wrap">
+              <a href=""><img src="IMAGES/img51.jpeg" alt=""></a>
+              <a href=""><img src="IMAGES/img19.jpeg" alt=""></a>
+              <a href=""><img src="IMAGES/img17.jpeg" alt=""></a>
+              <a href=""><img src="IMAGES/img8.jpeg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 foot_end">
+        <span>© 2022 Foodies. All Rights Reserved by NSAsOFT</span>
+      </div>
+    </div>
+  </footer>
+
+    <!-- modal for product 🚀🚀🚀-->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <!-- <h5 class="modal-title" id="exampleModalLabel">Product Details</h5> -->
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img src="IMAGES/dal-bati-churma-removebg-preview-min.png" alt="" class="PROD_detail_img">
+                </div>
+                <div class="col-lg-6 PROD_DETAIL">
+                  <h4>Dal-Bati-Churma</h4>
+                  <h4 class="card-text d-flex align-items-center">
+                    <small class="text-muted mute_price">₹599</small>
+                    <span class="fw-bold" style="color: #f7a518;">₹449</span>
+                  </h4>
+                  <span class="d-block">
+                    <i class="bi bi-star-fill color"></i>
+                    <i class="bi bi-star-fill color"></i>
+                    <i class="bi bi-star-fill color"></i>
+                    <i class="bi bi-star-fill color"></i>
+                    <i class="bi bi-star color"></i>
+                    <span class="rating">(4/5)</span>
+                    <p> <span class="fw-bolder"> About Product :</span> Dal-Bati-Churma is a complete dish and very popular in Rajasthan, India. Traditional way to serve it is to first coarsely mash the Baati then pour pure Ghee on top of it. It is served with the daal (lentils) and spicy garlic chutney. Also served with Besan (gram flour) ki kadi. "Dal-Baati-Churma", is a combination of three different food items - Daal (lentils), Baati and Churma (Sweet). It is a typical Rajasthani dish...</p>
+                    <hr>
+                    <span class="categ"> <span class="fw-bolder">Category:</span> Fresh Fruits, Jiuce</span>
+                    <span class="categ mb-3"> <span class="fw-bolder">Tags:</span> Fruits, Natural, Organic</span>
+    
+                    <span class="cart_num"> <i class="bi bi-plus"></i> <input value="1"> <i class="bi bi-dash"></i></span>
+                    <div class="pr_det_btns">
+                      <button class="prod_cart">Add To Cart<i class="bi bi-cart ps-3"></i></button>
+                      <button class="prod_cart" style="padding: 11px 15px;"><i class="bi bi-heart"></i></button>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center flex-wrap">
+                      <div class="like_dislike d-flex mt-0 mt-4 ">
+                        <i class="bi bi-hand-thumbs-up-fill" data-bs-toggle="tooltip" data-bs-placement="left"
+                          title="😋 Delicious"></i>
+                        <i class="bi bi-hand-thumbs-down-fill" data-bs-toggle="tooltip" data-bs-placement="right"
+                          title="😐 Horrible"></i></i>
+                      </div>
+                      <div class="share d-flex mt-4 ">
+                        <ul class="social_icons d-flex mb-0 ps-0">
+                          <li class="mt-0"><a href=""><i class="bi bi-facebook"></i></a></li>
+                          <li class="mt-0"><a href=""><i class="bi bi-instagram"></i></a></li>
+                          <li class="mt-0"><a href=""><i class="bi bi-twitter"></i></a></li>
+                          <li class="mt-0"><a href=""><i class="bi bi-pinterest"></i></a></li>
+                          <li class="mt-0"><a href=""><i class="bi bi-whatsapp"></i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Bootstrap js -->
+    <script src="JS\bootstrap.bundle.min.js"></script>
+    <!-- owl carousel js + jquery -->
+    <script src="JS\jquery.min.js"></script>
+    <script src="JS\owl.carousel.min.js"></script>
+
+    <!-- Aos js-->
+    <script src="JS\aos.js"></script>
+    <!-- main.js -->
+    <script src="JS\main.js"></script>
+
+</body>
+
+</html>
